@@ -1,0 +1,25 @@
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex-grow: 1;
+}
+.bg-img {
+   text-shadow: 1px 1px 5px black;
+  background-size: cover;
+}
+.lower-img{
+    height: 25vh;
+    background-image: url(cityscape.jpg);  background-position: top;
+}
+.upper-img{
+    height: 40vh;
+    background-image: url(writing.jpg);
+    background-position: bottom;
+}
+.bg-blue{
+  background-color: rgb(59, 134, 151);
+}
